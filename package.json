@@ -1,0 +1,30 @@
+{
+    "name": "bq2json",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sakamossan/bq2json"
+    },
+    "version": "0.0.0",
+    "description": "Query bigquery to generate a properly typed json file",
+    "main": "dist/index.js",
+    "dependencies": {
+        "@google-cloud/bigquery": "^5.12.0",
+        "@google-cloud/storage": "^6.11.0",
+        "camelcase-keys": "^6.2.2",
+        "yargs": "^17.7.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "bigquery",
+        "json",
+        "export"
+    ],
+    "author": "sakamoto_akira_ <mild7caloriemategreentea@gmail.com> (https://twitter.com/sakamoto_akira_)",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/yargs": "^17.0.24",
+        "typescipt": "^1.0.0"
+    }
+}
